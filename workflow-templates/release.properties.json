@@ -1,7 +1,7 @@
 {
     "name": "horde-components release workflow for horde apps",
     "description": "CI workflow template for horde apps, that uses horde-components to write changelog entries and make releases",
-    "iconName": "example-icon",
+    "iconName": "release",
     "categories": [
         "Php"
     ],
