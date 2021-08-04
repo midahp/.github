@@ -1,0 +1,11 @@
+{
+    "name": "horde-components composer workflow for horde apps",
+    "description": "CI workflow template for horde apps, that uses horde-components to update the composer.json file",
+    "iconName": "example-icon",
+    "categories": [
+        "Php"
+    ],
+    "filePatterns": [
+        ".horde.yml"
+    ]
+}
