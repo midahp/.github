@@ -3,7 +3,7 @@ name: Global workflow to rule them all
 on:
   push:
       branches: [ master ] #or main
-
+  workflow_dispatch:
 jobs:
 
   replicate_changes:
