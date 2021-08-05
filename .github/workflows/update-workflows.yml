@@ -19,7 +19,6 @@ jobs:
             github_token: ${{ secrets.WORKFLOW_DEPLOY_TOKEN }}
             files_to_ignore: update-workflows.yml
             repos_to_ignore: Twitch-Watcher
-            exclude_private: true
             committer_username: workflow updater
             committer_email: ci-job@maintaina.com
             commit_message: "ci: update global workflows"
