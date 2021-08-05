@@ -16,7 +16,7 @@ jobs:
         - name: Replicating global workflow
           uses: derberg/global-workflows-support@v0.0.2
           with:
-            github_token: ${{ secrets.CUSTOM_TOKEN }}
+            github_token: ${{ secrets.WORKFLOW_DEPLOY_TOKEN }}
             files_to_ignore: update-workflows.yml
             repos_to_ignore: Twitch-Watcher
             exclude_private: true
